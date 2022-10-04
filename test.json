@@ -1,46 +1,9 @@
-[
 {
-"Id": "428d7aff-2e4a-46df-acff-0550cd827cd3",
-"Name": "Канал 1",
-"Disabled": false,
-"ServerBindingsSettings": {
-"OwnerServerId": "cd81195c-9c0e-42f0-8535-c55af9c35161",
-"ReservedServerId": "00000000-0000-0000-0000-000000000000",
-"ReplicationServerId": "00000000-0000-0000-0000-000000000000"
-},
-"ParentSecObjectId": "1f2c7319-9e87-46a2-be33-61bf2872b7df"
-},
-{
-"Id": "44afcd50-7b7c-4f91-89f5-5385acd66c96",
-"Name": "Канал 2",
-"Disabled": false,
-"ServerBindingsSettings": {
-"OwnerServerId": "9162138b-046a-48ed-82ed-6c6c7f6a52ba",
-"ReservedServerId": "00000000-0000-0000-0000-000000000000",
-"ReplicationServerId": "00000000-0000-0000-0000-000000000000"
-},
-"ParentSecObjectId": "25f867d0-92d5-4571-86da-403ea9458501"
-},
-{
-"Id": "56eeec10-c6ac-4257-8821-907dd85013ff",
-"Name": "Канал 3",
-"Disabled": false,
-"ServerBindingsSettings": {
-"OwnerServerId": "cd81195c-9c0e-42f0-8535-c55af9c35161",
-"ReservedServerId": "00000000-0000-0000-0000-000000000000",
-"ReplicationServerId": "00000000-0000-0000-0000-000000000000"
-},
-"ParentSecObjectId": "1f2c7319-9e87-46a2-be33-61bf2872b7df"
-},
-{
-"Id": "f6ffec63-3255-47de-85d6-99692ebace41",
-"Name": "Канал 4",
-"Disabled": false,
-"ServerBindingsSettings": {
-"OwnerServerId": "9162138b-046a-48ed-82ed-6c6c7f6a52ba",
-"ReservedServerId": "00000000-0000-0000-0000-000000000000",
-"ReplicationServerId": "00000000-0000-0000-0000-000000000000"
-},
-"ParentSecObjectId": "25f867d0-92d5-4571-86da-403ea9458501"
+"Id": "7d69e586-25c6-470e-a368-5570d57b2631",
+"Name": "Камера 1",
+"AltEnabled": false,
+"ReceiveVideoMbps": 0.8812103271484375,
+"ReceiveAltVideoMbps": 0,
+"WriteVideoMbps": 0,
+"Status": "Ok"
 }
-]
