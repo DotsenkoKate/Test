@@ -1,9 +1,12 @@
 {
-"Id": "7d69e586-25c6-470e-a368-5570d57b2631",
-"Name": "Камера 1",
-"AltEnabled": false,
-"ReceiveVideoMbps": 0.8812103271484375,
-"ReceiveAltVideoMbps": 0,
-"WriteVideoMbps": 0,
-"Status": "Ok"
+"faces_modules": [
+{
+"name": "basic",
+"enabled": true
+},
+{
+"name": "expert",
+"enabled": false
+}
+]
 }
