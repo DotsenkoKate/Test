@@ -1,16 +1,13 @@
-
 {
  "id": "d1bd0147-e3d7-4bcd-a19c-e9a1acafaadd",
- "external_id" : "0",
+ "external_id": "0",
  "first_name": "Иван",
  "patronymic": "Иванович",
  "second_name": "Иванов",
  "additional_info": "Генеральный директор ООО \"Рога и копыта\"",
  "modification_time": "2019-05-28T05:58:17.994Z",
  "groups": [
- {
- "id": "4cf2c1bb-707a-4455-a00b-c7d114eae96f"
- }
+ "4cf2c1bb-707a-4455-a00b-c7d114eae96f"
  ],
  "face_images": [
  
@@ -19,11 +16,11 @@ JCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAw
 RCABGAE8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRV
 S0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMX
 Gx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJ
-BUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmao qO
+BUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqO
 kpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDqvs1Hk/u6uf8ALOmRw+bX3B8eMt4qk8r5PuU6OLyqP/R
-dAE3/AC0+5Tk6VDUkXagBr9ag/wBVJVnyv++qJYv3lAFZ4vNqtLFmSrkv3Kh8mgC0nWm0UUGgvlfvKmjipnm+9PjloMxH6UJ0ofpQnSgAz+8qT7J+7pnlfWn/AMSAniaPopo
-VGygChL/rKmji/d1NJFSJ0oAb/rY6Z5X0qaPZ5aUSRUGgyiSKnwf6xqfJL+8oMxnlfWnxxebRF9ypo4vKjoAIu1Q3H+tp8f+sp8kX7ugCnHvqxUUkVD76AK1v8AwJVyOoY7W
-rX/ACzoAdHsqGSL95T44v3lPnoAI/3VP8r60W/9KloAbF9+mS/6ymW/7qSpo/3u+gBnlfWnvF+7qbyamji/d0AYsYkL/eqxRRQAU5+lFFACxxc1LRRQAPHlc/xU3/lpRRQBN
-L3p6y+YKKKAP//Z"
+dAE3/AC0+5Tk6VDUkXagBr9ag/wBVJVnyv++qJYv3lAFZ4vNqtLFmSrkv3Kh8mgC0nWm0UUGgvlfvKmjipnm+9PjloMxH6UJ0ofpQnSgAz+8qT7J+7pnlfWn/AMGygChL/rK
+mji/d1NJFSJ0oAb/rY6Z5X0qaPZ5aUSRUGgyiSKnwf6xqfJL+8oMxnlfWnxxebRF9ypo4vKjoAIu1Q3H+tp8f+sp8kX7ugCnHvqxUUkVD76AK1v8AwJVyOoY7WrX/ACzoAdH
+sqGSL95T44v3lPnoAI/3VP8r60W/9KloAbF9+mS/6ymW/7qSpo/3u+gBnlfWnvF+7qbyamji/d0AYsYkL/eqxRRQAU5+lFFACxxc1LRRQAPHlc/xU3/lpRRQBNL3p6y+YKKK
+AP//Z"
  ]
 }
