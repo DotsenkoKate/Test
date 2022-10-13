@@ -1,88 +1,78 @@
-{
- "Id": "b63d7868-9325-4b9e-9475-7a7668fa0719",
- "Name": "Камера Axis",
- "Disabled": false,
- "ServerBindingsSettings": {
- "OwnerServerId": "d1bb90ec-8a04-4af2-a8df-0ab1e5980ae6",
- "ReservedServerId": "00000000-0000-0000-0000-000000000000",
- "ReplicationServerId": "00000000-0000-0000-0000-000000000000"
- },
- "ParentSecObjectId": "934f0580-267a-4d3b-a0f6-0bfb48308f6f",
- "Description": "",
- "ConnectionSettings": {
- "ModelId": "b499b4c5-4109-475d-8f08-341a5a5e70bd",
- "Hostname": "127.0.0.1",
- "Login": null,
- "Password": null,
- "MainVideoStreamFormat": "H264",
- "AltVideoStreamEnabled": false,
- "AltVideoStreamFormat": "MJPEG",
- "SoundReceivingEnabled": false,
- "PtzEnabled": false,
- "Ipv6Enabled": false,
- "MultiChannelServerEnabled": false,
- "MultiChannelServerChannelNum": 1,
- "IoProcessingEnabled": false,
- "SoundTransmittingEnabled": false,
- "ExternalNetworkPorts": [
+[
  {
- "DefaultPortValue": 554,
- "PortValue": 554,
- "IsExternallyDefined": false
- }
- ],
- "SoundVolume": 100,
- "MainVideoAdditionalParams": null,
- "AltVideoAdditionalParams": null,
- "MainStreamRotationMode": "None",
- "AltStreamRotationMode": "None",
- "DirectNetworkConnectionToCameraEnabled": false,
- "GpuClientVideoDecodingEnabled": false,
- "AlternativeVideoDecoderEnabled": false,
- "IsSecureConnectionEnabled": true
- },
- "ArchiveSettings": {
- "ArchivingDisabled": true,
- "ArchivingMode": "AlwaysOn",
- "ArchivingVideoStreamType": "Main",
- "ArchivingMinDeepnessInDays": 7,
- "ArchivingMaxDeepnessInDays": 365,
- "ArchivingSoundDisabled": false,
- "PreMotionDetectionRecSecs": 1,
- "PostMotionDetectionRecSecs": 1,
- "LimitRecordFpsAndOnlyIndepFramesEnabled": false,
- "LimitedRecordFps": 30,
- "DeviceArchiveEnabled": false,
- "DeviceArchiveAutoSynchronizationEnabled": false
- },
- "AnalyzeSettings": {
- "MotionDetectorEnabled": true,
- "MotionDetectorSettings": {
- "BuildInCameraDetectorEnabled": false,
- "GenerationOfEventMotionStartAndEndEnabled": true,
- "DetectOnlyIndependentFrames": false,
- "CustomFpsEnabled": false,
- "CustomFpsValue": 3,
- "Zones": [
+ "EventType": "MotionFact",
+ "Actions": [
  {
- "Id": "3bc01441-41d5-4948-97ff-cb04f826f291",
- "Name": "Зона 5",
- "MinObjWidth": 0.08,
-"MinObjHeight": 0.08
+ "ActionType": "AlarmGeneration",
+ "ActionBodyJson": "{\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
  }
  ]
  },
- "AnalyzeStreamType": "Main",
- "FaceDetectorEnabled": false,
- "FaceDetectorMode": "Basic",
- "InteractiveSearchEnabled": false,
- "InteractiveSearchSettings": {
- "IndexatorEnabled": false,
- "IndexatorProportionsEnabled": false,
- "IndexatorMinObjWidth": 0.05,
- "IndexatorMinObjHeight": 0.05,
- "IndexatorMaxObjWidth": 1,
- "IndexatorMaxObjHeight": 1
+ {
+ "EventType": "MotionBegin",
+ "Actions": [
+ {
+ "ActionType": "ArchiveRecordingOn",
+ "ActionBodyJson": {\"RecordingDurationMs\":300000,\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
  }
+ ]
+ },
+ {
+ "EventType": "MotionEnd",
+ "Actions": [
+ {
+ "ActionType": "ArchiveRecordingOn",
+ "ActionBodyJson": "{\"RecordingDurationMs\":300000,\"RepeatIntervalMs\":5000, \"Conditions\":[]}"
  }
-}
+ ]
+ },
+ {
+ "EventType": "CameraLostConnection",
+ "Actions": [
+ {
+ "ActionType": "AlarmGeneration",
+ "ActionBodyJson": "{\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
+ }
+ ]
+ },
+ {
+ "EventType": "CameraEstablishConnection",
+ "Actions": [
+ {
+ "ActionType": "AlarmGeneration",
+ "ActionBodyJson": "{\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
+ }
+ ]
+ },
+ {
+ "EventType": "CameraNoConnection",
+ "Actions": [
+ {
+ "ActionType": "AlarmGeneration",
+ "ActionBodyJson": "{\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
+ },
+ {
+ "ActionType": "AlarmGeneration",
+ "ActionBodyJson": "{\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
+ }
+ ]
+ },
+ {
+ "EventType": "CameraInput",
+ "Actions": [
+ {
+ "ActionType": "AlarmGeneration",
+ "ActionBodyJson": "{\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
+ }
+ ]
+ },
+ {
+ "EventType": "UserAlarm",
+ "Actions": [
+ {
+ "ActionType": "AlarmGeneration",
+ "ActionBodyJson": "{\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
+ }
+ ]
+ }
+]
