@@ -13,7 +13,7 @@
  "Actions": [
  {
  "ActionType": "ArchiveRecordingOn",
- "ActionBodyJson": {\"RecordingDurationMs\":300000,\"RepeatIntervalMs\":5000,\"Conditions\":[]}"
+ "ActionBodyJson": "{\"RecordingDurationMs\":300000,\"RepeatIntervalMs\":5000, \"Conditions\":[]}"
  }
  ]
  },
