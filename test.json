@@ -1,43 +1,6 @@
 {
  "ChannelSettings": {
- "DetectionZones": [
- {
- "Contour": {
- "Name": "Зона 1",
- "Id": "55f42d44-c772-4d81-8937-a76bfa1be739",
- "Points": [
- "0.25,0.25",
-"0.75,0.25",
-"0.75,0.75",
-"0.25,0.75"
- ]
+ "DbId": "123"
  },
- "ShouldAlertOnMaxCount": false,
- "MaxAllowedCount": 0,
- "Sensitivity": "Medium",
- "SmoothingMode": "Interval10Sec",
- "Id": "55f42d44-c772-4d81-8937-a76bfa1be739",
- "Name": "Зона 1"
- },
- {
- "Contour": {
- "Name": "Зона 2",
- "Id": "2663d439-6713-4a0e-a168-7c3c573c14a1",
- "Points": [
- "0.25,0.25",
-"0.75,0.25",
-"0.75,0.75",
- "0.25,0.75"
- ]
- },
- "ShouldAlertOnMaxCount": false,
- "MaxAllowedCount": 0,
- "Sensitivity": "Medium",
- "SmoothingMode": "Interval10Sec",
- "Id": "2663d439-6713-4a0e-a168-7c3c573c14a1",
- "Name": "Зона 2"
- }
- ]
- },
- "Enabled": true
+ "Enabled": false
 }
