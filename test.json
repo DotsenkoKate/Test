@@ -1,33 +1,17 @@
-{
-	"Id": "934f0580-267a-4d3b-a0f6-0bfb48308f6f",
-	"ParentId": "00000000-0000-0000-0000-000000000000",
-	"Name": null,
-	"ChildObjects": [{
-			"Id": "601c8ff9-8a3a-4fd8-a19c-dfaa1729cac4",
-			"ParentId": "934f0580-267a-4d3b-a0f6-0bfb48308f6f",
-			"Name": "Объект 1",
-			"ChildObjects": [{
-				"Id": "7169e12e-5a50-41d0-bd7f-bd57f5d1f042",
-				"ParentId": "601c8ff9-8a3a-4fd8-a19c-dfaa1729cac4",
-				"Name": "Объект 6",
-				"ChildObjects": [],
-				"ChildChannels": [{
-					"Id": "7d69e586-25c6-470e-a368-5570d57b2631",
-					"Name": "Канал 1"
-				}]
-			}],
-			"ChildChannels": []
-		},
-		{
-			"Id": "cc586375-1f7e-49ca-845e-ebc1c2d95f78",
-			"ParentId": "934f0580-267a-4d3b-a0f6-0bfb48308f6f",
-			"Name": "Объект 3",
-			"ChildObjects": [],
-			"ChildChannels": []
-		}
-	],
-	"ChildChannels": [{
-		"Id": "5d1722d5-5c02-4ddf-afe5-bbf5873a31ca",
-		"Name": "Канал 3"
-	}]
-}
+[
+ {
+ "Id": "a03f6f5b-7f43-4537-89ea-77eee1e2d15a",
+ "Name": "Старшие администраторы",
+ "ConfiguringType": "SeniorAdmin"
+ },
+ {
+ "Id": "4a553dc0-660f-4153-8d7b-6a99e6492b0d",
+ "Name": "Младшие администраторы",
+ "ConfiguringType": "JuniorAdmin"
+ },
+ {
+ "Id": "f0254188-79b1-4b87-a670-6c95dbd24f96",
+ "Name": "Операторы",
+ "ConfiguringType": "Operator"
+ }
+]
