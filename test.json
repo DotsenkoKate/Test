@@ -1,17 +1,6 @@
-[
+
  {
  "Id": "a03f6f5b-7f43-4537-89ea-77eee1e2d15a",
  "Name": "Старшие администраторы",
  "ConfiguringType": "SeniorAdmin"
- },
- {
- "Id": "4a553dc0-660f-4153-8d7b-6a99e6492b0d",
- "Name": "Младшие администраторы",
- "ConfiguringType": "JuniorAdmin"
- },
- {
- "Id": "f0254188-79b1-4b87-a670-6c95dbd24f96",
- "Name": "Операторы",
- "ConfiguringType": "Operator"
  }
-]
