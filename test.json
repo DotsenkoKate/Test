@@ -1,6 +1,12 @@
-
+[
  {
- "Id": "a03f6f5b-7f43-4537-89ea-77eee1e2d15a",
- "Name": "Старшие администраторы",
- "ConfiguringType": "SeniorAdmin"
+ "Id": "4dbb3d27-51a4-4a94-92e3-fbe3a522431b",
+ "GroupId": "a03f6f5b-7f43-4537-89ea-77eee1e2d15a",
+ "Login": "root"
+ },
+ {
+ "Id": "a7357e79-32d7-449c-b0e6-b563a45398c4",
+ "GroupId": "4a553dc0-660f-4153-8d7b-6a99e6492b0d",
+ "Login": "usr"
  }
+]
