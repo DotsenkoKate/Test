@@ -1,24 +1,96 @@
 [
  {
- "Id": "428d7aff-2e4a-46df-acff-0550cd827cd3",
- "Name": "Канал 1",
- "Disabled": false,
- "ServerBindingsSettings": {
- "OwnerServerId": "cd81195c-9c0e-42f0-8535-c55af9c35161",
- "ReservedServerId": "00000000-0000-0000-0000-000000000000",
- "ReplicationServerId": "00000000-0000-0000-0000-000000000000"
- },
- "ParentSecObjectId": "1f2c7319-9e87-46a2-be33-61bf2872b7df"
+ "Name": "3S",
+ "DeviceModels": [
+ {
+ "Id": "4c2c3083-21d9-4f32-ae8e-42903ea64241",
+ "Name": "N10xx",
+ "AltStreamSupported": true,
+ "MultiChannelServerSupported": false,
+ "DeviceArchiveSupported": false,
+ "PtzSupported": false,
+ "SoundReceivingSupported": true,
+ "SoundTransmittingSupported": false,
+ "IoProcessingEnabledSupported": true,
+ "MainVideoStreamFormatsSupported": [
+ "MJPEG",
+"H264"
+ ],
+ "AltVideoStreamFormatsSupported": [
+ "MJPEG",
+"H264"
+ ],
+ "DefaultExternalNetworkPorts": [
+ 554
+ ]
+ }
+ ]
  },
  {
- "Id": "56eeec10-c6ac-4257-8821-907dd85013ff",
- "Name": "Канал 3",
- "Disabled": false,
- "ServerBindingsSettings": {
- "OwnerServerId": "cd81195c-9c0e-42f0-8535-c55af9c35161",
- "ReservedServerId": "00000000-0000-0000-0000-000000000000",
- "ReplicationServerId": "00000000-0000-0000-0000-000000000000"
+ "Name": "ABRON",
+ "DeviceModels": [
+ {
+ "Id": "d5d62eba-a314-4fd0-a9c4-b29ae7d0f356",
+ "Name": "ABC-i(2xx,4xx,6xx)(P,VP,VRP)",
+ "AltStreamSupported": true,
+ "MultiChannelServerSupported": false,
+ "DeviceArchiveSupported": false,
+ "PtzSupported": false,
+ "SoundReceivingSupported": true,
+ "SoundTransmittingSupported": true,
+ "IoProcessingEnabledSupported": true,
+ "MainVideoStreamFormatsSupported": [
+ "H264",
+"MJPEG"
+ ],
+ "AltVideoStreamFormatsSupported": [
+ "H264",
+"MJPEG"
+ ],
+ "DefaultExternalNetworkPorts": []
  },
- "ParentSecObjectId": "1f2c7319-9e87-46a2-be33-61bf2872b7df"
+ {
+ "Id": "ebe511c5-31fd-48d9-bd0d-00a0ef22a9e2",
+ "Name": "ABC-i(31x,41x,61x)(FR,FP,VP,VRP)",
+ "AltStreamSupported": true,
+ "MultiChannelServerSupported": false,
+ "DeviceArchiveSupported": false,
+ "PtzSupported": false,
+ "SoundReceivingSupported": false,
+ "SoundTransmittingSupported": false,
+ "IoProcessingEnabledSupported": false,
+ "MainVideoStreamFormatsSupported": [
+ "MPEG4_Part2",
+"H264",
+"MJPEG"
+ ],
+ "AltVideoStreamFormatsSupported": [
+ "MPEG4_Part2",
+"H264",
+ "MJPEG"
+ ],
+ "DefaultExternalNetworkPorts": []
+ },
+ {
+ "Id": "2d21b065-bb0c-4bff-8096-25feb89d5093",
+ "Name": "ABR",
+ "AltStreamSupported": true,
+ "MultiChannelServerSupported": true,
+ "DeviceArchiveSupported": false,
+ "PtzSupported": false,
+ "SoundReceivingSupported": true,
+ "SoundTransmittingSupported": false,
+ "IoProcessingEnabledSupported": false,
+ "MainVideoStreamFormatsSupported": [
+ "H264"
+ ],
+ "AltVideoStreamFormatsSupported": [
+ "H264"
+ ],
+ "DefaultExternalNetworkPorts": [
+ 554
+ ]
+ }
+ ]
  }
 ]
