@@ -1,96 +1,21 @@
-[
+{
+ "offset": 0,
+ "portion": 2,
+ "total_count": 2,
+ "plates": [
  {
- "Name": "3S",
- "DeviceModels": [
- {
- "Id": "4c2c3083-21d9-4f32-ae8e-42903ea64241",
- "Name": "N10xx",
- "AltStreamSupported": true,
- "MultiChannelServerSupported": false,
- "DeviceArchiveSupported": false,
- "PtzSupported": false,
- "SoundReceivingSupported": true,
- "SoundTransmittingSupported": false,
- "IoProcessingEnabledSupported": true,
- "MainVideoStreamFormatsSupported": [
- "MJPEG",
-"H264"
- ],
- "AltVideoStreamFormatsSupported": [
- "MJPEG",
-"H264"
- ],
- "DefaultExternalNetworkPorts": [
- 554
- ]
- }
- ]
+ "id": "74d8b8cb-ca9c-4a6f-af8c-f990dad24325",
+ "external_id": "",
+ "license_plate_number": "О529КН70",
+ "additional_info": "Доп инфо",
+ "modification_time": "0001-01-01T00:00:00"
  },
  {
- "Name": "ABRON",
- "DeviceModels": [
- {
- "Id": "d5d62eba-a314-4fd0-a9c4-b29ae7d0f356",
- "Name": "ABC-i(2xx,4xx,6xx)(P,VP,VRP)",
- "AltStreamSupported": true,
- "MultiChannelServerSupported": false,
- "DeviceArchiveSupported": false,
- "PtzSupported": false,
- "SoundReceivingSupported": true,
- "SoundTransmittingSupported": true,
- "IoProcessingEnabledSupported": true,
- "MainVideoStreamFormatsSupported": [
- "H264",
-"MJPEG"
- ],
- "AltVideoStreamFormatsSupported": [
- "H264",
-"MJPEG"
- ],
- "DefaultExternalNetworkPorts": []
- },
- {
- "Id": "ebe511c5-31fd-48d9-bd0d-00a0ef22a9e2",
- "Name": "ABC-i(31x,41x,61x)(FR,FP,VP,VRP)",
- "AltStreamSupported": true,
- "MultiChannelServerSupported": false,
- "DeviceArchiveSupported": false,
- "PtzSupported": false,
- "SoundReceivingSupported": false,
- "SoundTransmittingSupported": false,
- "IoProcessingEnabledSupported": false,
- "MainVideoStreamFormatsSupported": [
- "MPEG4_Part2",
-"H264",
-"MJPEG"
- ],
- "AltVideoStreamFormatsSupported": [
- "MPEG4_Part2",
-"H264",
- "MJPEG"
- ],
- "DefaultExternalNetworkPorts": []
- },
- {
- "Id": "2d21b065-bb0c-4bff-8096-25feb89d5093",
- "Name": "ABR",
- "AltStreamSupported": true,
- "MultiChannelServerSupported": true,
- "DeviceArchiveSupported": false,
- "PtzSupported": false,
- "SoundReceivingSupported": true,
- "SoundTransmittingSupported": false,
- "IoProcessingEnabledSupported": false,
- "MainVideoStreamFormatsSupported": [
- "H264"
- ],
- "AltVideoStreamFormatsSupported": [
- "H264"
- ],
- "DefaultExternalNetworkPorts": [
- 554
- ]
+ "id": "c25ddd15-53a3-47f4-8471-3b5425a983f9",
+ "external_id": "",
+ "license_plate_number": "К999УВ70",
+ "additional_info": "Нет",
+ "modification_time": "0001-01-01T00:00:00"
  }
  ]
- }
-]
+}
