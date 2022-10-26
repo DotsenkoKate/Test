@@ -1,9 +1,46 @@
-{
- "Id": "4dbb3d27-51a4-4a94-92e3-fbe3a522431b",
- "GroupId": "a03f6f5b-7f43-4537-89ea-77eee1e2d15a",
- "Login": "root",
- "UserType": "Standart",
- "UserBlocked": false,
- "Comment": null
-}
-
+[ {
+ "Id": "ddf047bf-70d1-482d-b1fa-fdc38207e148",
+ "Name": "Новый профиль 1",
+ "GridType": "GridType6",
+ "ChannelsPositions": [
+ {
+ "GridIndex": 0,
+ "ChannelId": "501bd18f-6b09-491f-a1f4-8d5545f7f0fa"
+ },
+ {
+ "GridIndex": 2,
+ "ChannelId": "405c1bbd-f0d5-4a3f-b8de-e238e021f6c3"
+ }
+ ]
+ },
+ {
+ "Id": "ccf047bf-70d1-482d-b1fa-fdc38207e148",
+ "Name": "Новый профиль 222",
+ "GridType": "GridType6",
+ "ChannelsPositions": [
+ {
+ "GridIndex": 0,
+ "ChannelId": "501bd18f-6b09-491f-a1f4-8d5545f7f0fa"
+ },
+ {
+ "GridIndex": 1,
+ "ChannelId": "405c1bbd-f0d5-4a3f-b8de-e238e021f6c3"
+ }
+ ]
+ },
+ {
+ "Id": "a932fbdd-bbb6-40fa-9b7f-bf27dd2067de",
+ "Name": "Новый профиль 223",
+ "GridType": "GridType6",
+ "ChannelsPositions": [
+ {
+ "GridIndex": 0,
+ "ChannelId": "501bd18f-6b09-491f-a1f4-8d5545f7f0fa"
+ },
+ {
+ "GridIndex": 1,
+ "ChannelId": "405c1bbd-f0d5-4a3f-b8de-e238e021f6c3"
+ }
+ ]
+ }
+]
