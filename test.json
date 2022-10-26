@@ -1,60 +1,24 @@
 [
  {
- "Id": "cd81195c-9c0e-42f0-8535-c55af9c35161",
- "Name": "Cервер 1",
- "Hostname": "192.168.100.50",
- "Port": 8080,
- "IsReplicationServer": false,
- "UseFastReservation": false,
- "TotalLicParams": {
- "Channels": 400,
- "SoundChannels": 400,
- "PtzChannels": 400,
- "FaceRecognitionChannels": 16,
- "PlateRecognCompleteChannels": 400,
- "PlateRecognLightChannels": 0,
- "PeopleCounterChannels": 400,
- "ReservedChannels": 400
+ "Id": "428d7aff-2e4a-46df-acff-0550cd827cd3",
+ "Name": "Канал 1",
+ "Disabled": false,
+ "ServerBindingsSettings": {
+ "OwnerServerId": "cd81195c-9c0e-42f0-8535-c55af9c35161",
+ "ReservedServerId": "00000000-0000-0000-0000-000000000000",
+ "ReplicationServerId": "00000000-0000-0000-0000-000000000000"
  },
- "UsedLicParams": {
- "Channels": 2,
- "SoundChannels": 0,
- "PtzChannels": 0,
- "FaceRecognitionChannels": 0,
- "PlateRecognCompleteChannels": 0,
- "PlateRecognLightChannels": 0,
- "PeopleCounterChannels": 0,
- "ReservedChannels": 0
- }
+ "ParentSecObjectId": "1f2c7319-9e87-46a2-be33-61bf2872b7df"
  },
  {
- "Id": "9162138b-046a-48ed-82ed-6c6c7f6a52ba",
- "Name": "Cервер 2",
- "Hostname": "10.1.1.86",
- "Port": 8081,
- "IsReplicationServer": false,
- "UseFastReservation": false,
- "TotalLicParams": {
- "Channels": 400,
- "SoundChannels": 400,
- "PtzChannels": 400,
- "FaceRecognitionChannels": 16,
- "PlateRecognCompleteChannels": 400,
- "PlateRecognLightChannels": 0,
- "PeopleCounterChannels": 400,
- "ReservedChannels": 400
+ "Id": "56eeec10-c6ac-4257-8821-907dd85013ff",
+ "Name": "Канал 3",
+ "Disabled": false,
+ "ServerBindingsSettings": {
+ "OwnerServerId": "cd81195c-9c0e-42f0-8535-c55af9c35161",
+ "ReservedServerId": "00000000-0000-0000-0000-000000000000",
+ "ReplicationServerId": "00000000-0000-0000-0000-000000000000"
  },
- "UsedLicParams": {
- "Channels": 2,
- "SoundChannels": 0,
- "PtzChannels": 0,
- "FaceRecognitionChannels": 0,
- "PlateRecognCompleteChannels": 0,
- "PlateRecognLightChannels": 0,
- "PeopleCounterChannels": 0,
- "ReservedChannels": 0
- 
-}
- 
-}
+ "ParentSecObjectId": "1f2c7319-9e87-46a2-be33-61bf2872b7df"
+ }
 ]
