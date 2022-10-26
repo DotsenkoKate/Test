@@ -1,15 +1,60 @@
+[
  {
- "Id": "ddf047bf-70d1-482d-b1fa-fdc38207e148",
- "Name": "Новый профиль 1",
- "GridType": "GridType6",
- "ChannelsPositions": [
- {
- "GridIndex": 0,
- "ChannelId": "501bd18f-6b09-491f-a1f4-8d5545f7f0fa"
+ "Id": "cd81195c-9c0e-42f0-8535-c55af9c35161",
+ "Name": "Cервер 1",
+ "Hostname": "192.168.100.50",
+ "Port": 8080,
+ "IsReplicationServer": false,
+ "UseFastReservation": false,
+ "TotalLicParams": {
+ "Channels": 400,
+ "SoundChannels": 400,
+ "PtzChannels": 400,
+ "FaceRecognitionChannels": 16,
+ "PlateRecognCompleteChannels": 400,
+ "PlateRecognLightChannels": 0,
+ "PeopleCounterChannels": 400,
+ "ReservedChannels": 400
+ },
+ "UsedLicParams": {
+ "Channels": 2,
+ "SoundChannels": 0,
+ "PtzChannels": 0,
+ "FaceRecognitionChannels": 0,
+ "PlateRecognCompleteChannels": 0,
+ "PlateRecognLightChannels": 0,
+ "PeopleCounterChannels": 0,
+ "ReservedChannels": 0
+ }
  },
  {
- "GridIndex": 2,
- "ChannelId": "405c1bbd-f0d5-4a3f-b8de-e238e021f6c3"
- }
- ]
- }
+ "Id": "9162138b-046a-48ed-82ed-6c6c7f6a52ba",
+ "Name": "Cервер 2",
+ "Hostname": "10.1.1.86",
+ "Port": 8081,
+ "IsReplicationServer": false,
+ "UseFastReservation": false,
+ "TotalLicParams": {
+ "Channels": 400,
+ "SoundChannels": 400,
+ "PtzChannels": 400,
+ "FaceRecognitionChannels": 16,
+ "PlateRecognCompleteChannels": 400,
+ "PlateRecognLightChannels": 0,
+ "PeopleCounterChannels": 400,
+ "ReservedChannels": 400
+ },
+ "UsedLicParams": {
+ "Channels": 2,
+ "SoundChannels": 0,
+ "PtzChannels": 0,
+ "FaceRecognitionChannels": 0,
+ "PlateRecognCompleteChannels": 0,
+ "PlateRecognLightChannels": 0,
+ "PeopleCounterChannels": 0,
+ "ReservedChannels": 0
+ 
+}
+ 
+}
+]
