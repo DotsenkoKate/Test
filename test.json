@@ -1,19 +1,9 @@
 {
- "owner": {
- "first_name": "Иван",
- "second_name": "Иванов",
- "third_name": "Иванович"
- },
- "id": "74d8b8cb-ca9c-4a6f-af8c-f990dad24325",
+ "id": "8d7223c9-b9ff-42b8-8fe8-ec7c5a6efa67",
  "external_id": "",
- "license_plate_number": "О529КН70",
- "additional_info": "Доп инфо",
- "modification_time": "0001-01-01T00:00:00",
- "model": "Модель",
- "color": "Белый",
- "groups": [
- {
- "id": "8d7223c9-b9ff-42b8-8fe8-ec7c5a6efa67"
- }
- ]
+ "name": "Доверенная",
+ "intercept": false,
+ "open_barrier": false,
+ "modification_time": "2021-02-14T02:26:01.423Z",
+ "color": "ff00ff00"
 }
