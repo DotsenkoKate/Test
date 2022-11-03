@@ -1,9 +1,129 @@
 {
- "id": "8d7223c9-b9ff-42b8-8fe8-ec7c5a6efa67",
- "external_id": "",
- "name": "Доверенная",
- "intercept": false,
- "open_barrier": false,
- "modification_time": "2021-02-14T02:26:01.423Z",
- "color": "ff00ff00"
+ "Id": "36b21916-1186-4ba0-8ad6-138f963140a6",
+ "SenderId": "23424773-aa6e-4088-a0d3-97d50fe76c5f",
+ "RevNum": 70,
+ "Timestamp": "2015-05-20T12:13:37.6889429Z",
+ "XmlProtocolVersion": 2,
+ "ServerVersion": "2.0.15",
+ "Servers": [
+ {
+ "Id": "23424773-aa6e-4088-a0d3-97d50fe76c5f",
+ "Name": "Cервер 1",
+ "Url": "192.168.100.61:8080",
+ "ConnectionUrl": null
+ }
+ ],
+ "Channels": [
+ {
+ "Id": "9bacefb4-4605-4813-940d-41c056248f8d",
+ "Name": "Канал 1",
+ "Description": "",
+ "DeviceInfo": "LTV ICD(M,V)(x)-xxx",
+ "AttachedToServer": "23424773-aa6e-4088-a0d3-97d50fe76c5f",
+ "IsDisabled": false,
+ "IsSoundOn": false,
+ "IsArchivingEnabled": true,
+ "IsSoundArchivingEnabled": false,
+ "AllowedRealtime": true,
+ "AllowedArchive": true,
+ "IsPtzOn": false,
+ "IsTransmitSoundOn": false,
+ "ArchiveMode": "MDandManual",
+ "Streams": [
+ {
+ "StreamType": 0,
+ "StreamFormat": 3,
+ "RotationMode": 0
+ },
+ {
+ "StreamType": 1,
+ "StreamFormat": 1,
+ "RotationMode": 0
+ }
+ ],
+ "ArchiveStreamType": "Main"
+ }
+ ],
+ "RootSecObject": {
+ "ChildSecObjects": [
+ {
+ "ChildSecObjects": [],
+ "ChildChannels": [
+ "9bacefb4-4605-4813-940d-41c056248f8d"
+ ],
+ "Id": "583f67a8-d173-4b59-8c49-5e774c99bcf9",
+ "Name": "Объект 1"
+ }
+ ],
+ "ChildChannels": [],
+ "Id": "9c7d175a-9c84-455e-b104-57cc12cb9d47",
+ "Name": null
+ },
+ "UserGroup": {
+ "Id": "464daa9e-755d-4491-a616-5fbda4423ac8",
+ "Name": "Администраторы",
+ "CanConfigure": true,
+ "CanConfigureWorkplace": false,
+ "CanShutdown": true,
+ "CanChangeChannelMode": true,
+ "CanManageRec": true,
+ "CanAccessExpertMode": true,
+ "CanPTZ": true,
+ "CanReceiveSound": true,
+ "CanTransmitSound": true,
+ "CanAccessNewCamera": true,
+ "CanGetTranscodedVideoFromMobileServer": true,
+ "CanAccessEditingAnalystPluginsInClient": true,
+ "CanAccessVideoViaWeb": true,
+ "CanAccessVideoViaSmartTV": true,
+ "CanExportVideoToAvi": true,
+ "CanReceiveMainStream": true,
+ "AllowedArchiveDepth": "416.16:00:00",
+ "IsAllForbidden": false,
+ "CanAccessUnifiedLog": true,
+ "CanAccessToAllUsersInUnifiedLog": true,
+ "CanReceiveMobilePush": true
+ },
+ "MobileServerInfo": {
+ "IsEnabled": true,
+ "IsProxyEnabled": true,
+ "IsMobilePushEnabled": false,
+ "Port": 8089,
+ "UsePFrames": false,
+ "FpsLimit": 0,
+ "LowResolution": "120 x 90",
+ "MiddleResolution": "240 x 180",
+ "HighResolution": "800 x 480",
+ "Resolutions": [
+ {
+ "Width": 800,
+ "Height": 480,
+ "IsEnabled": true,
+ "FpsLimit": 15,
+ "UsePFrames": true,
+ "Type": 2
+ },
+ {
+ "Width": 240,
+ "Height": 180,
+ "IsEnabled": true,
+ "FpsLimit": 4,
+ "UsePFrames": false,
+ "Type": 1
+ },
+ {
+ "Width": 120,
+ "Height": 90,
+ "IsEnabled": false,
+ "FpsLimit": 4,
+ "UsePFrames": false,
+ "Type": 0
+ }
+ ]
+ },
+ "RtspServerInfo": {
+ "IsEnabled": true,
+ "TcpPort": 554,
+ "IsMjpegEnabled": false
+ }
 }
