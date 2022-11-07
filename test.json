@@ -1,20 +1,18 @@
-{
- "PtzCapabilities": 
- {
- "HomePositionSupports": true,
- "MoveToSupports": false, 
- "AreaZoomSupports": false, 
- "ZoomSupports": true, 
- "ContiniousZoomSupports": true, 
- "AutoFocusSupports": true, 
- "ManualFocusSupports": true, 
- "ContiniousFocusSupports": true, 
- "SupportedStepMoveDirections": 0, 
- "SupportedContiniousMoveDirections": 255 
- },
- "Resolution": 
- {
- "Width": 1920,
- "Height": 1080
- }
-}
+[ 
+ { 
+ "TimeUtc" : "21.05.2015 05:53:17.537", 
+ "Numberplate" : "С896АХ59", 
+ "LastName" : "", 
+ "FirstName" : "", 
+ "PatronymicName" : "", 
+ "Group" : ""
+ } , 
+ { 
+ "TimeUtc" : "21.05.2015 05:53:34.467", 
+ "Numberplate" : "Х497КО59", 
+ "LastName" : "", 
+ "FirstName" : "", 
+ "PatronymicName" : "", 
+ "Group" : "" 
+ } 
+]
