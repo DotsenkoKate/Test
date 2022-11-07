@@ -1,3 +1,6 @@
+Error code: 0
+Message: Success
+Body-length: 3148
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfEventInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
