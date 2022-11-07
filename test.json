@@ -1,45 +1,20 @@
-[
+{
+ "PtzCapabilities": 
  {
- "Id": "596ea82f-cf03-4e1f-9658-5aafbb1cb143",
- "IsRecordingOn": false,
- "StreamsStates": 
- [
- {
- "Type": "MainVideo",
- "State": "Active"
+ "HomePositionSupports": true,
+ "MoveToSupports": false, 
+ "AreaZoomSupports": false, 
+ "ZoomSupports": true, 
+ "ContiniousZoomSupports": true, 
+ "AutoFocusSupports": true, 
+ "ManualFocusSupports": true, 
+ "ContiniousFocusSupports": true, 
+ "SupportedStepMoveDirections": 0, 
+ "SupportedContiniousMoveDirections": 255 
  },
+ "Resolution": 
  {
- "Type": "AlternativeVideo",
- "State": "Stopped"
- },
- {
- "Type": "MainSound",
- "State": "Active"
- },
- {
- "Type": "AlternativeSound",
- "State": "Stopped"
- },
- {
- "Type": "OutputSound",
- "State": "Stopped"
- },
- {
- "Type": "MotionDetection",
- "State": "Stopped"
- },
- {
- "Type": "IO",
- "State": "Stopped"
- },
- {
- "Type": "ArchiveVideo",
- "State": "Stopped"
- },
- {
- "Type": "ArchiveSound",
- "State": "Stopped"
+ "Width": 1920,
+ "Height": 1080
  }
- ]
- }
-]
+}
